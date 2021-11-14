@@ -1,0 +1,22 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		System.out.println("How old are you?");
+		
+		Scanner sc = new Scanner(System.in);
+		int age = sc.nextInt();
+		
+		System.out.println("Cats or dogs?");
+		String animal = sc.next();
+		
+		if ((age > 12 && animal.equals("cats"))) 
+		{
+			System.out.println("Welcome!");
+		}
+		
+	}
+}
