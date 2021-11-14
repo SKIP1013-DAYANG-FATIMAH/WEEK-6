@@ -1,0 +1,23 @@
+package selfProgramming;
+
+public class Exercise4 {
+
+	public static void main(String[] args) {
+		int age = 29;
+		boolean single = true;
+		boolean taken = false;
+		char type = 'b';
+
+		System.out.println(single && !taken);
+		  if (!single && !taken && (type == 'b'))
+		    System.out.println("It is true");
+		  
+		  System.out.println(!single && taken);  
+		  if (single && !taken || (type == 'b'));
+		  System.out.println("It is true");
+		  
+		
+		
+	}
+
+}
