@@ -1,0 +1,24 @@
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String password = "let me in";
+		System.out.println("Guess the password: ");
+		
+		Scanner sc = new Scanner(System.in);
+		String guess = sc.nextLine();
+		
+			if(password.toLowerCase().equals(guess.toLowerCase())) { 
+			System.out.println("Your guess was correct!");
+			
+			} 
+			else if("don't stop believing".toLowerCase().equals(guess.toLowerCase())) {
+				System.out.println("You got the second password");
+			}
+			else {
+			System.out.println("This is false");
+		}
+	}
+}
+
+
