@@ -1,0 +1,25 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class Exercise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String password = "let me in";
+		System.out.println("Guess the password: ");
+		
+		Scanner sc = new Scanner(System.in);
+		String guess = sc.nextLine();
+		
+		System.out.println(password.equals(guess));
+		
+		if(password.equals(guess)) { 
+			System.out.println("Your guess was correct!");
+			
+		} else {
+			System.out.println("This is false");
+		}
+	}
+
+}
