@@ -1,0 +1,28 @@
+package selfProgramming;
+
+public class Exercise7 {
+
+	public static void main(String[] args) {
+		
+		String dog = "husky";
+
+		switch(dog) {
+		case "poodle":
+			System.out.println("elegant dog");
+			break;
+		case "husky":
+			System.out.println("dramatic dog");
+			break;	
+		case "bulldog":
+			System.out.println("savage dog");
+			break;
+		default:
+			System.out.println("try a different dog name");
+			
+			
+			
+		}
+		
+	}
+
+}
